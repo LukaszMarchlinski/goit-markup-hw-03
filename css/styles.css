@@ -14,45 +14,17 @@ body {
     background-color: var(--white);
     line-height: 1,25;
 }
-* {
-    box-sizing: border-box;
-  }
-  .container {
-    max-width: 1200px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bacground0 {
-    color: var(--white);
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-
-}
 .logo1 {
     color: var(--blue);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
 }
 .logo2 {
     color:var(--black);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 275px;
-    top: 24px;
 }
 .logo3 {
     color:var(--white);
@@ -63,12 +35,7 @@ body {
 .agency {
     color: var(--blue);
     font-weight: 500;
-    text-decoration: none;  
-    position: absolute;
-    width: 53px;
-    height: 16px;
-    left: 453px;
-    top: 32px;  
+    text-decoration: none;    
 }
 .agency1 {
     font-weight: 500;
@@ -77,11 +44,6 @@ body {
 .portfolio {
     font-weight: 500;
     text-decoration: none;
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
 }
 .portfolio1 {
     color: var(--blue);
@@ -96,94 +58,35 @@ body {
     color: var(--gray);
     font-weight: 500;
     text-decoration: none;
-    position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-}
-.teleaddress2 {
-    color: var(--gray);
-    font-weight: 500;
-    text-decoration: none;
-    position: absolute;
-    width: 110px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
 }
 
 .bacground {
-    background-color: var(--bacground);  
-    width:1600px; 
-    height:600px;
-    position: absolute;
-    left: 0px;
-    top: 80px;
+    background-color: var(--bacground);  width:1600px; height:600px
 }
 .heading {
     color: var(--white);
     font-size: 44px;
     background-color: var(--bacground);
     font-weight: 900;
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 200px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 .button {
     color: var(--white);
     font-size: 16px;
-    font-weight: 700;
+   font-weight: 700;
     background-color: var(--blue);
-    width:200px; 
-    height:50px;
+    width:200px; height:50px;
     cursor: pointer;
-    position: absolute;
-    border: none;  
-    left: 700px;
-    top: 380px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border: none;
 
 }
-.container {
-    max-width: 1200px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.list {
-    display:flex;
-    flex-wrap:nowrap;
-    gap: 10px;
-    padding: 0;
-    list-style: none;
-}
-.item {
-    flex-basis: calc((100% - 20px) / 3);
-    padding: 10px;
-    border-radius: 4px;
-
-}
-  
 .subtitle {
     font-weight: 700;
-    list-style-type: none;
-    position: absolute;
-    margin-top: 774px;
+    list-style-type:none;
 }
-    
 .text1 {
     color: var(--gray);
     font-weight: 400;
-    letter-spacing: 0.03em;
-    margin-top: 800px;
+    
 }
 .title {
     color: var(--dark);
@@ -191,9 +94,7 @@ body {
     font-family: 'Roboto', sans-serif; font-weight: 700;
 }
 .bacgroundtitle {
-    background-color: var(--lightgray); 
-    width:1600px; 
-    height:648px;
+    background-color: var(--lightgray); width:1600px; height:648px;
 }
 .personal {
     font-size: 16px;
@@ -274,9 +175,6 @@ body {
 }
 .contact:visited {
     color:var(--black)
-}
-.teleaddress2:hover {
-    color: var(--blue);
 }
 .contact:hover {
     color: var(--blue);
