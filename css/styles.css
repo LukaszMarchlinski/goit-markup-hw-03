@@ -1,59 +1,85 @@
 :root {
     --black: #000000;
     --blue: #2196F3;
-    --white:#FFFFFF;
+    --white: #FFFFFF;
     --gray: #757575;
     --dark: #212121;
     --bacground: #2F303A;
     --lightgray: #F5F4FA;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--dark);
     font-size: 14px;
     background-color: var(--white);
-    line-height: 1,25;
+    line-height: 1, 25;
 }
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
 .logo1 {
     color: var(--blue);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+
 }
+
 .logo2 {
-    color:var(--black);
+    color: var(--black);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
+
 .logo3 {
-    color:var(--white);
+    color: var(--white);
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
 .agency {
     color: var(--blue);
     font-weight: 500;
-    text-decoration: none;    
+    text-decoration: none;
 }
+
 .agency1 {
     font-weight: 500;
     text-decoration: none;
 }
+
 .portfolio {
     font-weight: 500;
     text-decoration: none;
 }
+
 .portfolio1 {
     color: var(--blue);
     font-weight: 500;
     text-decoration: none;
 }
+
 .contact {
     font-weight: 500;
     text-decoration: none;
 }
+
 .teleaddress {
     color: var(--gray);
     font-weight: 500;
@@ -61,72 +87,93 @@ body {
 }
 
 .bacground {
-    background-color: var(--bacground);  width:1600px; height:600px
+    background-color: var(--bacground);
+    width: 1600px;
+    height: 600px
 }
+
 .heading {
     color: var(--white);
     font-size: 44px;
     background-color: var(--bacground);
     font-weight: 900;
 }
+
 .button {
     color: var(--white);
     font-size: 16px;
-   font-weight: 700;
+    font-weight: 700;
     background-color: var(--blue);
-    width:200px; height:50px;
+    width: 200px;
+    height: 50px;
     cursor: pointer;
     border: none;
 
 }
+
 .subtitle {
     font-weight: 700;
-    list-style-type:none;
+    list-style-type: none;
 }
+
 .text1 {
     color: var(--gray);
     font-weight: 400;
-    
+
 }
+
 .title {
     color: var(--dark);
     font-size: 36px;
-    font-family: 'Roboto', sans-serif; font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
+
 .bacgroundtitle {
-    background-color: var(--lightgray); width:1600px; height:648px;
+    background-color: var(--lightgray);
+    width: 1600px;
+    height: 648px;
 }
+
 .personal {
     font-size: 16px;
-    font-weight: 500;  
+    font-weight: 500;
 }
+
 .position {
     color: var(--gray);
     font-size: 16px;
-    font-weight: 400; 
+    font-weight: 400;
 }
+
 .bacgroundfooter {
-    background-color: var(--bacground); 
-    width:1600px; height:252px
+    background-color: var(--bacground);
+    width: 1600px;
+    height: 252px
 }
+
 .address {
     font-style: normal;
 }
+
 .colorcursor:hover {
-    color:var(--blue),
+    color: var(--blue),
 }
+
 .address1 {
     color: var(--white);
-    font-weight: 400; 
+    font-weight: 400;
     text-decoration: none;
 }
+
 .footermail {
     color: var(--white);
     opacity: 60%;
-    font-weight: 400; 
+    font-weight: 400;
     text-decoration: none;
 }
-.footertel{
+
+.footertel {
     color: var(--white);
     opacity: 60%;
     font-weight: 400;
@@ -137,63 +184,79 @@ body {
     font-size: 18px;
     font-weight: 700;
 }
+
 .button1 {
-    color:var(--dark);
+    color: var(--dark);
     font-size: 16px;
     font-weight: 500;
-    background-color: var(--lightgray); height: 38px;
+    background-color: var(--lightgray);
+    height: 38px;
     border: none;
 }
 
-.button1:hover{
-    color:var(--white);
+.button1:hover {
+    color: var(--white);
     background-color: var(--blue);
 }
-.list {
-    list-style-type: none;
-}
+
+
+
 .agency:hover {
     color: var(--blue);
 }
+
 :hover.portfolio {
     color: var(--blue);
 }
+
 .portfolio:hover {
     color: var(--blue);
 }
+
 .portfolio1:hover {
     color: var(--blue);
 }
+
 .footermail:hover {
     color: var(--blue);
 }
+
 .footertel:hover {
     color: var(--blue);
 }
+
 .teleaddress:hover {
     color: var(--blue);
 }
+
 .contact:visited {
-    color:var(--black)
+    color: var(--black)
 }
+
 .contact:hover {
     color: var(--blue);
 }
+
 .portfolio:visited {
     color: var(--black);
 }
+
 .portfolio:hover {
     color: var(--blue);
 }
+
 .agency1:visited {
     color: var(--black)
 }
+
 .agency1:hover {
     color: var(--blue);
 }
+
 :visited.portfolio1 {
-    color:#2196F3;
+    color: #2196F3;
 }
+
 :visited.agency {
-    color:#2196F3;
+    color: #2196F3;
 }
