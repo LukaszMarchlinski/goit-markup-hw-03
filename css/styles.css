@@ -402,9 +402,8 @@ body {
 .containerportfolio {
     max-width: 1200px;
     width: 100%;
-    padding: 0 15px;
     margin: auto;
-    margin-top: 94px;
+    padding-top: 94px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -421,9 +420,9 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 94px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 94px;
 
 }
 
